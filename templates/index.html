@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EMA Surveys Dashboard</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>EMA Management Dashboard</h1>
+        
+        <div id="dashboard">
+            <table>
+                <thead>
+                    <tr>
+                        <th>Username</th>
+                        <th>Status</th>
+                        <th>Action</th>
+                    </tr>
+                </thead>
+                <tbody id="userTable"></tbody>
+            </table>
+        </div>
+    </br>
+
+        <div id="replaceEma">
+            <h2>Replace EMA</h2>
+            <form id="replaceEmaForm">
+                <select id="userSelect"></select>
+                <input type="file" id="fileReplace" required>
+                <button type="submit">Replace EMA</button>
+            </form>
+        </div>
+    </br>
+
+        <div id="addUser">
+            <h2>Add New User</h2>
+            <form id="addUserForm">
+                <input type="text" id="newUserName" placeholder="Enter username" required>
+                <input type="file" id="fileAdd" required>
+                <button type="submit">Add User</button>
+            </form>
+        </div>
+    </div>
+    <script src="/static/script.js"></script>
+</body>
+</html>

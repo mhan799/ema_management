@@ -1,0 +1,52 @@
+{
+  "App": {
+    "auth_key": "111",
+    "serverName": "app",
+    "isEmaOn": true,
+    "isDiaryOn": false,
+    "isGarminOn": false,
+    "isAnnouncementsOn": false,
+    "studyName": "name",
+    "studyPI": "pi",
+    "studyPIContact": "contact",
+    "configRefreshTime": 60,
+    "upload_DATA": true,
+    "require_WIFI_FOR_UPLOAD": false,
+    "require_CHARGING_FOR_UPLOAD": false,
+    "enable_HK_DUMP": false,
+    "enable_LOCATION_UPDATES": false,
+    "use_BACKEND_AUTH_KEY": false,
+    "save_LOGS": false,
+    "hb_TIME_TICK": 10,
+    "db_DUMP_TIME": 30,
+    "hk_DUMP_INTERVAL": 15,
+    "max_UPLOAD_INTERVAL": 119
+  },
+  "Ema": {
+    "automaticReloadInterval": 6,
+    "blackoutTimes": [
+      20,
+      40
+    ],
+    "repeatingSchedule": [
+      0,
+      5,
+      10,
+      20
+    ],
+    "repeatingMessages": [
+      "This is a message",
+      "This is a message too",
+      "This is again a message"
+    ],
+    "realTimeRepeatingSchedule": [
+      5,
+      15,
+      20
+    ],
+    "realTimeRepeatingMessages": [
+      "Repeating message",
+      "Repeating message again"
+    ]
+  }
+}
